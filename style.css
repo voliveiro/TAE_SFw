@@ -13,6 +13,10 @@ body {
     background-color: #f4f4f4;
 }
 
+header {
+    padding-left: 20px;
+}
+
 /* Style for dropdown containers */
 .dropdown-container {
     margin: 20px;
