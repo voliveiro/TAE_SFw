@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Role Dropdown</title>
+    <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+
+<h1> 
+    <p> TAE SFw </p>
+</h1>
+<div class="dropdown-container">
+    <label for="jobRole">Select Job Role:</label>
+    <select id="jobRole" onchange="populateCriticalWorkFunction()">
+        <option value="">-- Select Job Role --</option>
+    </select>
+</div>
+
+<div class="dropdown-container">
+    <label for="workFunction">Select Critical Work Function:</label>
+    <select id="workFunction" onchange="populateKeyTasks()">
+        <option value="">-- Select Critical Work Function --</option>
+    </select>
+</div>
+
+<div class="dropdown-container">
+    <label for="keyTasks">Select Key Tasks:</label>
+    <select id="keyTasks">
+        <option value="">-- Select Key Tasks --</option>
+    </select>
+</div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
+
