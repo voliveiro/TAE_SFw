@@ -30,9 +30,11 @@ function populateJobRole() {
 function showJobRoleDescription() {
     const jobRole = document.getElementById('jobRole').value;
     const jobRoleDescription = document.getElementById('jobRoleDescription');
+    const jobRoleDescriptionTitle = document.getElementById('jobRoleDescriptionTitle')
 
     if (jobRole && job_roles[jobRole]) {
         jobRoleDescription.textContent = job_roles[jobRole];
+        jobRoleDescriptionTitle.textContent = "Job Description"
     } else {
         jobRoleDescription.textContent = 'Description not available.';
     }
