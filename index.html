@@ -16,9 +16,14 @@
 </header>
 <div class="dropdown-container">
     <label for="jobRole">Select Job Role:</label>
-    <select id="jobRole" onchange="populateCriticalWorkFunction()">
+    <select id="jobRole" onchange="showJobRoleDescription(); populateCriticalWorkFunction()">
         <option value="">-- Select Job Role --</option>
     </select>
+</div>
+
+<div class="description-container">
+    <h2>Job Role Description</h2>
+    <p id="jobRoleDescription"></p>
 </div>
 
 <div class="dropdown-container">
@@ -29,15 +34,17 @@
 </div>
 
 <div class="dropdown-container">
-    <label for="keyTasks">Select Key Tasks:</label>
+    <label for="keyTasks">Key Tasks:</label>
     <select id="keyTasks">
-        <option value="">-- Select Key Tasks --</option>
+        <option value="">-- Key Tasks for Job --</option>
     </select>
 </div>
 
-<script src="data.js"></script>
+
+
+<script src="data5.js"></script>
+<script src="data2.js"></script>
 <script src="script.js"></script>
 
 </body>
 </html>
-

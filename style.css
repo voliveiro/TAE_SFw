@@ -42,6 +42,10 @@ header {
     border-radius: 5px;
 }
 
+.description-container {
+    padding-left: 20px; 
+    padding-right: 20px; 
+}
 /* Make sure the page is mobile-friendly */
 @media (max-width: 600px) {
     .dropdown-container {
